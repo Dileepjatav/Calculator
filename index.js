@@ -97,7 +97,7 @@ function btns(){
     document.getElementById('display').value=display
     first_num=tempnum;
     operation="Sub";
-    tempnum="";  s
+    tempnum="";  
 
 }
 function btnm(){
@@ -139,7 +139,6 @@ function btneq(){
     document.getElementById('display').value=result;
     display=result
     tempnum=result;
-    console.log(tempnum)
 }
 
 function btnclr(){

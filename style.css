@@ -31,8 +31,6 @@ body{
     
 }
 button {
-    
-/* <button class="button-31" role="button">Button 31</button> */
   background-color: #222;
   border-radius: 4px;
   color: #fff;
@@ -73,7 +71,6 @@ button:hover,button:focus {
     font-size: 30px;
     padding: 5px 10px;
     font-weight: 400;
-    position: inherit;
     background-color: rgb(187, 186, 184);
 }
 #btnclr{
