@@ -1,0 +1,76 @@
+
+.container{
+  
+    background-color: rgb(194, 235, 235);
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.calcu{
+ 
+    height: 505px;
+    width: 404px;
+    background-color: rgb(204, 106, 106);
+    margin-top: 100px;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 3%;
+   
+    
+}
+button {
+    
+/* <button class="button-31" role="button">Button 31</button> */
+  background-color: #222;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  min-height: 30px;
+  min-width: 10px;
+  overflow: hidden;
+  padding: 5px 5px 5px;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  width: 100px;
+  margin: 3px;
+}
+
+button:hover,
+button:focus {
+  opacity: .75;
+}
+#divdisplay{
+    width: 100%;
+    height: 120px;
+
+}
+#divnum{
+    margin: 0px;
+    height: 380px;
+    width: 100%;    
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+}
+#display{
+    width: 90%;
+    height: 50px;
+    margin: 10px;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 2vh;
+    font-size: 30px;
+    padding: 5px 10px;
+    font-weight: 400;
+    position: inherit;
+    background-color: rgb(187, 186, 184);
+}
