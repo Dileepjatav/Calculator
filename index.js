@@ -92,6 +92,30 @@ function btnp(){
     tempnum="";  
 
 }
+function btns(){
+    display=display+"-"
+    document.getElementById('display').value=display
+    first_num=tempnum;
+    operation="Sub";
+    tempnum="";  s
+
+}
+function btnm(){
+    display=display+"x"
+    document.getElementById('display').value=display
+    first_num=tempnum;
+    operation="Mul";
+    tempnum="";  
+
+}
+function btnd(){
+    display=display+"/"
+    document.getElementById('display').value=display
+    first_num=tempnum;
+    operation="Div";
+    tempnum="";  
+
+}
 
 function btneq(){
     second_num=tempnum;
@@ -103,6 +127,12 @@ function btneq(){
 
         case "Sub":
             result=(parseInt(first_num)-parseInt(second_num))
+            break
+        case "Mul":
+            result=(parseInt(first_num)*parseInt(second_num))
+            break
+        case "Div":
+            result=(parseInt(first_num)/parseInt(second_num))
             break
     }
 
