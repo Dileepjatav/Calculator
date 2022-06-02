@@ -35,25 +35,15 @@ button {
 /* <button class="button-31" role="button">Button 31</button> */
   background-color: #222;
   border-radius: 4px;
-  box-sizing: border-box;
   color: #fff;
-  cursor: pointer;
-  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
   font-size: 20px;
   font-weight: 700;
-  min-height: 30px;
-  min-width: 10px;
-  overflow: hidden;
   padding: 5px 5px 5px;
-  position: relative;
-  text-align: center;
-  touch-action: manipulation;
   width: 75px;
   margin: 3px;
 }
 
-button:hover,
-button:focus {
+button:hover,button:focus {
   opacity: .75;
 }
 #divdisplay{
@@ -69,8 +59,7 @@ button:focus {
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 1fr 1fr 1fr 1fr ;
     gap: 5px 1px;
-    overflow: hidden;
-    justify-content: space-evenly;
+    
     padding-left: 10px;
 
 }
