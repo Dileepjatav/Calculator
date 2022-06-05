@@ -74,5 +74,7 @@ button:hover,button:focus {
     background-color: rgb(187, 186, 184);
 }
 #btnclr{
-    grid-row-end: 3;
+
+    
+    width: 300px ;
 }

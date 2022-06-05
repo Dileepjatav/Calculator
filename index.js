@@ -85,6 +85,8 @@ function btndot(){
 }
 
 function btnp(){
+    
+
     display=display+"+"
     document.getElementById('display').value=display
     first_num=tempnum;
@@ -118,21 +120,20 @@ function btnd(){
 }
 
 function btneq(){
-    second_num=tempnum;
     
     switch(operation){
         case "Plus":    
-            result=(parseInt(first_num)+parseInt(second_num))
+            result=(parseFloat(first_num)+parseFloat(tempnum))
             break
 
         case "Sub":
-            result=(parseInt(first_num)-parseInt(second_num))
+            result=(parseFloat(first_num)-parseFloat(tempnum))
             break
         case "Mul":
-            result=(parseInt(first_num)*parseInt(second_num))
+            result=(parseFloat(first_num)*parseFloat(tempnum))
             break
         case "Div":
-            result=(parseInt(first_num)/parseInt(second_num))
+            result=(parseFloat(first_num)/parseFloat(tempnum))
             break
     }
 
